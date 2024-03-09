@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
           scaffoldBackgroundColor: Colors.grey.shade100
       ),
-      home: HomePage(),
+      home: ChatsPage(),
     );
   }
 }

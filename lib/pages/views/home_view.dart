@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:month_4_mini_project/widgets/job_section_item.dart';
-import 'package:month_4_mini_project/widgets/propular_job_list.dart';
+import 'package:month_4_mini_project/widgets/popular_job_list.dart';
 import 'package:month_4_mini_project/widgets/recent_post_section.dart';
 import 'package:month_4_mini_project/widgets/top_section.dart';
 
@@ -46,7 +46,7 @@ class HomeView extends StatelessWidget {
           children: <Widget>[
             TopSection(),
             JobSectionItem(title: 'Popular Job',),
-            ProposedJobList(),
+            PopularJobList(),
             SizedBox(height: 10),
             JobSectionItem(title: 'Recent Post',),
             RecentPostSection(
