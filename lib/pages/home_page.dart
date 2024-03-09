@@ -10,7 +10,7 @@ import 'package:month_4_mini_project/widgets/main_title.dart';
 import 'package:month_4_mini_project/widgets/my_button.dart';
 import 'package:month_4_mini_project/widgets/outlined_text_field.dart';
 import 'package:month_4_mini_project/widgets/password_input.dart';
-import 'package:month_4_mini_project/widgets/propular_job_list.dart';
+import 'package:month_4_mini_project/widgets/popular_job_list.dart';
 import 'package:month_4_mini_project/widgets/recent_post_section.dart';
 import 'package:month_4_mini_project/widgets/social_media.dart';
 import 'package:month_4_mini_project/widgets/sub_title.dart';

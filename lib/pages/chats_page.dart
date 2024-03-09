@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:month_4_mini_project/widgets/chat_card.dart';
+import 'package:month_4_mini_project/widgets/chat_list.dart';
 
 class ChatsPage extends StatelessWidget {
   const ChatsPage({super.key});
@@ -85,107 +86,3 @@ class ChatsPage extends StatelessWidget {
   }
 }
 
-class ChatList extends StatelessWidget {
-  const ChatList({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return ListView(
-      padding: const EdgeInsets.all(16.0),
-      children:[
-        Row(
-          mainAxisAlignment: MainAxisAlignment.end,
-          children: [
-            ChatCard(
-                chat: "Hello",
-                time: "4:34 PM",
-                cardColor: Colors.teal.shade100,
-                cardHeight: 60,
-                cardWidth: 120
-            ),
-          ],
-        ),
-        SizedBox(height: 10),
-        Row(
-            mainAxisAlignment: MainAxisAlignment.start,
-            children: [
-              ChatCard(
-                  chat: "Hi",
-                  time: "4:34 PM",
-                  cardColor: Colors.white,
-                  cardHeight: 60,
-                  cardWidth: 120
-              )
-            ]
-        ),
-        SizedBox(height: 10),
-        Row(mainAxisAlignment: MainAxisAlignment.end,
-            children: [
-              ChatCard(
-                  chat: "How are you?",
-                  time: "4:35 PM",
-                  cardColor: Colors.teal.shade100,
-                  cardHeight: 60,
-                  cardWidth: 120
-              )
-            ]
-        ),
-        SizedBox(height: 10),
-        Row(
-            mainAxisAlignment: MainAxisAlignment.start,
-            children: [
-              ChatCard(
-                  chat: "Nice, bro",
-                  time: "4:36 PM",
-                  cardColor: Colors.white,
-                  cardHeight: 60,
-                  cardWidth: 120
-              )
-            ]
-        ),
-        SizedBox(height: 10),
-        Row(
-            mainAxisAlignment: MainAxisAlignment.end,
-            children: [
-              ChatCard(
-                  chat: "I heard you guys are launching new product?",
-                  time: "4:36 PM",
-                  cardColor: Colors.teal.shade100,
-                  cardHeight: 100,
-                  cardWidth: 220
-              )
-            ]
-        ),
-        SizedBox(height: 10),
-        Row(
-            mainAxisAlignment: MainAxisAlignment.start,
-            children: [
-              ChatCard(
-                  chat: "Yes, its call UiHunt",
-                  time: "4:37 PM",
-                  cardColor: Colors.white,
-                  cardHeight: 60,
-                  cardWidth: 140
-              )
-            ]
-        ),
-        SizedBox(height: 10),
-        Row(
-            mainAxisAlignment: MainAxisAlignment.end,
-            children: [
-              ChatCard(
-                  chat: "That's Awesome",
-                  time: "4:37 PM",
-                  cardColor: Colors.teal.shade100,
-                  cardHeight: 60,
-                  cardWidth: 120
-              )
-            ]
-        ),
-        Row(),
-      ],
-    );
-  }
-}

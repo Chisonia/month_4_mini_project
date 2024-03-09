@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:month_4_mini_project/widgets/popular_job_item.dart';
 
-class ProposedJobList extends StatelessWidget {
-  const ProposedJobList({
+class PopularJobList extends StatelessWidget {
+  const PopularJobList({
     super.key,
   });
 
